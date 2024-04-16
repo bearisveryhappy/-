@@ -7,5 +7,6 @@ def info (request):
     return HttpResponse("info")
 
 
-def login (request):
+def home (request,nid):
+    print(nid)
     return HttpResponse("login")
